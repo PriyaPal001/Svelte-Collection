@@ -1,4 +1,4 @@
 <script>
-    import Hero1 from "$lib/components/HeroSection/Hero1.svelte";
+    import Hero1 from "$lib/components/PageSection/HeroSection/Hero1.svelte";
 </script>
 

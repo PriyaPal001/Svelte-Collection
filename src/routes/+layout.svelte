@@ -10,12 +10,12 @@
     import '../app.css';
 	let navs = [
 		{
-			name: 'Hero',
-			link: '/Heros/1'
+			name: 'HeroSection',
+			link: '/heros/1'
 		},
 		{
-			name: 'Team',
-			link: '#'
+			name: 'FeatureSection',
+			link: '/features/1'
 		},
 		{
 			name: 'Projects',
