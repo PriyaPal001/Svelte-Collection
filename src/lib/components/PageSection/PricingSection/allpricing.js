@@ -38,7 +38,7 @@ import p17 from "./pricing17.svelte?raw";
 
 
 
-export let allHeros=[
+export let allPricing=[
     {
         id:1,
         comp:pricing1,

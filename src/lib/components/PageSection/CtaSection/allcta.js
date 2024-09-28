@@ -28,7 +28,7 @@ import C13 from "./cta13.svelte?raw";
 
 
 
-export let allHeros=[
+export let allCta=[
     {
         id:1,
         comp:cta1,

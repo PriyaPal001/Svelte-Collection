@@ -23,7 +23,7 @@ import n10 from "./news10.svelte?raw";
 
 
 
-export let allHeros=[
+export let allNews=[
     {
         id:1,
         comp:News1,

@@ -31,7 +31,7 @@ import s14 from "./stats14.svelte?raw";
 
 
 
-export let allHeros=[
+export let allStats=[
     {
         id:1,
         comp:stats1,

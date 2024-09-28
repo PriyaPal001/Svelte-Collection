@@ -23,7 +23,7 @@ import T10 from "./test10.svelte?raw";
 
 
 
-export let allHeros=[
+export let allTests=[
     {
         id:1,
         comp:test1,
