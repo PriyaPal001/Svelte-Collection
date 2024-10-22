@@ -8,7 +8,7 @@
 <script>
 
     import '../app.css';
-	let navs = [
+	let navpage = [
 		{
 			name: 'HeroSection',
 			link: '/heros/1'
@@ -18,10 +18,72 @@
 			link: '/features/1'
 		},
 		{
-			name: 'Projects',
-			link: '#'
+			name: 'blogSection',
+			link: '/blogs/1'
+		},
+		{
+			name: 'contactSection',
+			link: '/contacts/1'
+		},
+		{
+			name: 'contentSection',
+			link: '/contents/1'
+		},
+		{
+			name: 'ctaSection',
+			link: '/cta/1'
+		},
+		{
+			name: 'FaqsSection',
+			link: '/Faqs/1'
+		},
+		{
+			name: 'footerSection',
+			link: '/Footer/1'
+		},
+		{
+			name: 'headerSection',
+			link: '/headers/1'
+		},
+		{
+			name: 'LCSection',
+			link: '/LCs/1'
+		},
+		{
+			name: 'newsletterSection',
+			link: '/news/1'
+		},
+		{
+			name: 'pricingSection',
+			link: '/pricing/1'
+		},
+		{
+			name: 'statsSection',
+			link: '/stats/1'
+		},
+		{
+			name: 'TeamSection',
+			link: '/Teams/1'
+		},
+		{
+			name: 'TestimonialSection',
+			link: '/tests/1'
 		}
 	];
+	// let navele=[
+	// 	{
+	// 		name: 'banner',
+	// 		link: '/banner/1'
+	// 	},
+	// 	{
+	// 		name: 'flyout',
+	// 		link: '/Flyout/1'
+	// 	},
+	// 	{
+	// 		name: 'Head',
+	// 		link: '/Head/1'
+	// 	}
+	// ]
 
 	let open =false;
 </script>
@@ -85,7 +147,7 @@
 						<ul role="list" class="flex flex-1 flex-col gap-y-7">
 							<li>
 								<ul role="list" class="-mx-2 space-y-1">
-									{#each navs as i}
+									{#each navpage as i}
 										
 										<li>
 											<a
@@ -113,7 +175,7 @@
 			<nav class="flex flex-1 flex-col">
 				<ul role="list" class="flex flex-1 flex-col gap-y-7">
 					<ul role="list" class="-mx-2 space-y-1">
-						{#each navs as i}
+						{#each navpage as i}
 							<li>
 								<a
 									href={i.link}
@@ -124,6 +186,18 @@
 							</li>
 						{/each}
 					</ul>
+					<ul role="list" class="-mx-2 space-y-1">
+						<!-- {#each navele as i}
+							<li>
+								<a
+									href={i.link}
+									class="group flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50 hover:text-indigo-600"
+								>
+									{i.name}
+								</a>
+							</li>
+						{/each}
+					</ul> -->
 				</ul>
 			</nav>
 		</div>

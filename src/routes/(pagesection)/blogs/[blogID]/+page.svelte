@@ -1,10 +1,10 @@
 <script>
 	
 	import { page } from '$app/stores';
-	import { allContact } from '$lib/components/PageSection/ContactSection/allcontact';
+	import { allBlogs } from '$lib/components/PageSection/BlogSection/allblog';
 	$: routeID = $page.params.blogID;
 	$: console.log(routeID);
-	$: BlogData = allContact.filter(n=>n.id===Number(routeID))[0];
+	$: BlogData = allBlogs.filter(n=>n.id===Number(routeID))[0];
 
 
 	let btnText='Copy Code';
