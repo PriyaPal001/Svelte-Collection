@@ -2,14 +2,15 @@
 	
 	import { page } from '$app/stores';
 	import { allbanner } from '$lib/components/Elements/Banners/allbanner';
+	import { allprice } from '$lib/components/PageExample/PricingPage/allprice';
 	$: routeID = $page.params.PageID;
 	$: console.log(routeID);
-	$: BannerData = allbanner.filter(n=>n.id===Number(routeID))[0];
+	$: PriceData = allprice.filter(n=>n.id===Number(routeID))[0];
 
 
 	let btnText='Copy Code';
 	let copyCode=()=>{
-		 navigator.clipboard.writeText(BannerData.copy)
+		 navigator.clipboard.writeText(PriceData.copy)
             .then(() => {
                 btnText = "Copied";
                 
@@ -29,7 +30,7 @@
 <div>
 	
 		<div class="mb-4 mt-2 rounded-lg border-2 p-4">
-			<svelte:component this={BannerData.comp} />
+			<svelte:component this={PriceData.comp} />
 		</div>
 		<div>
 			<button on:click={copyCode} class="rounded bg-black px-4 py-2 font-bold text-white border-2 hover:shadow-slate-700">
