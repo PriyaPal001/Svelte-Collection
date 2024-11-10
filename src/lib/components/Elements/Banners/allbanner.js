@@ -16,23 +16,25 @@ import Banner15 from "./banner15.svelte";
 import Banner16 from "./banner16.svelte";
 import Banner17 from "./banner17.svelte";
 
-import b1 from "./b1.svelte?raw";
-import b2 from "./b2.svelte?raw";
-import b3 from "./b3.svelte?raw";
-import b4 from "./b4.svelte?raw";
-import b5 from "./b5.svelte?raw";
-import b6 from "./b6.svelte?raw";
-import b7 from "./b7.svelte?raw";
-import b8 from "./b8.svelte?raw";
-import b9 from "./b9.svelte?raw";
-import b10 from "./b10.svelte?raw";
-import b11 from "./b11.svelte?raw";
-import b12 from "./b12.svelte?raw";
-import b13 from "./b13.svelte?raw";
-import b14 from "./b14.svelte?raw";
-import b15 from "./b15.svelte?raw";
-import b16 from "./b16.svelte?raw";
-import b17 from "./b17.svelte?raw";
+import b1 from "./banner1.svelte?raw";
+import b2 from "./banner2.svelte?raw";
+import b3 from "./banner3.svelte?raw";
+import b4 from "./banner4.svelte?raw";
+import b5 from "./banner5.svelte?raw";
+import b6 from "./banner6.svelte?raw";
+import b7 from "./banner7.svelte?raw";
+import b8 from "./banner8.svelte?raw";
+import b9 from "./banner9.svelte?raw";
+import b10 from "./banner10.svelte?raw";
+import b11 from "./banner11.svelte?raw";
+import b12 from "./banner12.svelte?raw";
+import b13 from "./banner13.svelte?raw";
+import b14 from "./banner14.svelte?raw";
+import b15 from "./banner15.svelte?raw";
+import b16 from "./banner16.svelte?raw";
+import b17 from "./banner17.svelte?raw";
+
+
 
 export let allbanner = [
     {
