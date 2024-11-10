@@ -7,14 +7,15 @@ import Fly6 from "./fly6.svelte";
 import Fly7 from "./fly7.svelte";
 import Fly8 from "./fly8.svelte";
 
-import f1 from "./f1.svelte?raw";
-import f2 from "./f2.svelte?raw";
-import f3 from "./f3.svelte?raw";
-import f4 from "./f4.svelte?raw";
-import f5 from "./f5.svelte?raw";
-import f6 from "./f6.svelte?raw";
-import f7 from "./f7.svelte?raw";
-import f8 from "./f8.svelte?raw";
+import f1 from "./fly1.svelte?raw";
+import f2 from "./fly2.svelte?raw";
+import f3 from "./fly3.svelte?raw";
+import f4 from "./fly4.svelte?raw";
+import f5 from "./fly5.svelte?raw";
+import f6 from "./fly6.svelte?raw";
+import f7 from "./fly7.svelte?raw";
+import f8 from "./fly8.svelte?raw";
+
 
 export let allfly = [
     {

@@ -16,23 +16,24 @@ import Head15 from "./Head15.svelte";
 import Head16 from "./Head16.svelte";
 import Head17 from "./Head17.svelte";
 
-import h1 from "./h1.svelte?raw";
-import h2 from "./h2.svelte?raw";
-import h3 from "./h3.svelte?raw";
-import h4 from "./h4.svelte?raw";
-import h5 from "./h5.svelte?raw";
-import h6 from "./h6.svelte?raw";
-import h7 from "./h7.svelte?raw";
-import h8 from "./h8.svelte?raw";
-import h9 from "./h9.svelte?raw";
-import h10 from "./h10.svelte?raw";
-import h11 from "./h11.svelte?raw";
-import h12 from "./h12.svelte?raw";
-import h13 from "./h13.svelte?raw";
-import h14 from "./h14.svelte?raw";
-import h15 from "./h15.svelte?raw";
-import h16 from "./h16.svelte?raw";
-import h17 from "./h17.svelte?raw";
+import h1 from "./Head1.svelte?raw";
+import h2 from "./Head2.svelte?raw";
+import h3 from "./Head3.svelte?raw";
+import h4 from "./Head4.svelte?raw";
+import h5 from "./Head5.svelte?raw";
+import h6 from "./Head6.svelte?raw";
+import h7 from "./Head7.svelte?raw";
+import h8 from "./Head8.svelte?raw";
+import h9 from "./Head9.svelte?raw";
+import h10 from "./Head10.svelte?raw";
+import h11 from "./Head11.svelte?raw";
+import h12 from "./Head12.svelte?raw";
+import h13 from "./Head13.svelte?raw";
+import h14 from "./Head14.svelte?raw";
+import h15 from "./Head15.svelte?raw";
+import h16 from "./Head16.svelte?raw";
+import h17 from "./Head17.svelte?raw";
+
 
 export let allhead = [
     {
